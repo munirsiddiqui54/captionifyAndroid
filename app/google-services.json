@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1005127911040",
+    "firebase_url": "https://captionify-7d24f-default-rtdb.firebaseio.com",
+    "project_id": "captionify-7d24f",
+    "storage_bucket": "captionify-7d24f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005127911040:android:c62b5dc7d0661d5b03c865",
+        "android_client_info": {
+          "package_name": "com.example.captionify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUrIA7ibVppsqWmJVe8CP_P_JjcQD1YqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005127911040:android:a4792782b735b8ee03c865",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUrIA7ibVppsqWmJVe8CP_P_JjcQD1YqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

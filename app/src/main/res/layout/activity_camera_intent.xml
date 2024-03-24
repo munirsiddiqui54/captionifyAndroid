@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".CameraIntent">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
     <ImageView
         android:id="@+id/image"
@@ -14,10 +22,9 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:src="@drawable/camera"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+         />
 
+    </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,13 +34,14 @@
         app:layout_constraintStart_toStartOf="parent"
         android:backgroundTint="#64B0EC"
         >
+
     <TextView
         android:id="@+id/mytext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello"
         android:padding="15dp"
-        android:visibility="visible"
+        android:visibility="gone"
         android:fontFamily="@font/poppins"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -49,10 +57,18 @@
         android:layout_margin="10dp"
         android:indeterminate="true"
         android:visibility="gone"
+        app:trackColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigate"
+        android:text="Navigate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

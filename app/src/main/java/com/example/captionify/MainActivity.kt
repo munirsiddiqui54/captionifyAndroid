@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener{
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mTts = TextToSpeech(this, this)
     }
     override fun onInit(status: Int) {
         // Your onInit code here
